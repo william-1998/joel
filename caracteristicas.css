@@ -1,0 +1,315 @@
+/*encabezado*/
+.re{
+	width: 1200px;
+	height: 120px;
+	margin: 0px auto;
+	text-align: right;
+	border-radius:20px ; 
+	background-repeat: no-repeat;
+	background-size:cover;	
+	background-attachment:fixed;
+	background:"../imagenes/system-emb.jpg";	
+}
+table .i{
+	float: left;
+	width: 200px;
+	padding: 50px;
+	margin: 30px 50px 0px 0px;
+	position: relative;
+	top: -90px;
+
+}
+table .menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+table .menu .d{
+    font-family: verdana;
+    font-size: 14px;
+	color: white;
+	list-style: none;
+	display: inline-block;
+	margin: 25px 90px -100px -20px;
+	position: relative;
+	top: -30px;
+	padding: -5px 20px;
+}
+table .menu .d:hover{
+	background-color: black;
+	
+}
+/*subbmenu*/
+.submenu {
+	position: absolute;
+	background: white;
+	border-radius: 20px;
+
+	visibility: hidden;
+	width: 200px;
+	margin: 0px 20px 0px -50px;
+	opacity: 0;
+	transition: opacity 1.5s;
+	list-style:none;
+}
+.submenu .f a{
+	display: block;
+	padding: 5px;
+    color: black;
+	font-family: 'verdana';
+	text-decoration: solid;
+	margin: 0px 0px 0px -10px;
+	padding: 10px;
+
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.i{
+    position: relative;
+    top: 2px; /* ajustar los valores para mover la imagen */
+    left: 100px;
+}
+/*pie de pagina*/
+.red{
+    width:1335px;
+	margin: 0px auto;
+	text-align: left;
+	border-radius: 20px;
+	height: 210px;
+	color: white;
+	font-family: verdana;
+}
+.un{
+	font-size: 12px;
+	font-family: verdana;
+	padding: 0px;
+	margin: 0px;
+	text-align: justify;
+	list-style: none;
+	color: white;
+	visibility: visible;
+} 
+.es {
+	position: relative;
+	top: -30px;
+}
+.en{
+position: relative;
+	top: -40px;	
+}
+.em{
+	position: relative;
+	top: -45px;	}
+
+
+.menu .d a:hover{
+	background-color: #F4F6F7;
+
+}
+/*contenido*/
+.q{
+    width: 1200px;
+	margin: 0px auto;
+	text-align: right;
+	border-radius: 20px;
+	height: 450px;
+	color: black;
+	font-family: verdana;
+}
+ .w{
+	text-align: center;
+	background-color: #F4F6F7;
+}
+.im{
+	width: 500px;
+	height: 300px;
+} 
+
+/*pagian 1*/
+table .hj{
+	position: relative;
+	top: 35px;
+	width: 300px;
+}
+/*sistemas eduactaivos*/
+table .hk{
+position: relative;
+	top: -475px;	
+}
+/*ejemplo*/
+ .ñ{
+	position: relative;
+	top: -480px;
+	width: 200px;
+}	
+/*caracteristicas*/
+table .hl{
+	position: relative;
+	top: -340px;
+	width: 100px;
+}/*ventajas*/
+table .hg{
+position: relative;
+	top: -250px;
+	width: 300px;	
+}
+/*ethernet*/
+table .pñ{
+    position: relative;
+	top: -290px;
+	width: 300px;	
+}
+table .ñp{
+position: relative;
+	top: -1250px;
+	width: 300px;	
+}/*arduino*/
+table .lñ{
+	position: relative;
+	top: -170px;
+	width: 300px;
+}/*plataformas*/
+table .jñ{
+ position: relative;
+	top: -20px;
+	width: 300px;	
+}
+.o {
+	margin: -620px;
+}
+.flexslider{
+	width: 350px;
+	margin: -300px 0px 0px 0px ;
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.70);
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+
+}
+.slides,
+.slides li,
+.slides li img{
+	position: relative;
+right: 7px;
+	width: 320px;
+	height: 200px;
+}
+/* PAGINACION =======================*/
+
+.flex-control-nav.flex-control-paging{
+	width: 320px;
+	padding: 10px 0px;
+	background: #141414;
+	border: -1px solid rgba(255,255,255,.10);
+	border-radius: 10px;
+	/*box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.80);*/
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+
+	list-style: none;
+
+	position: absolute;
+	bottom: -29px;
+	z-index: 3;
+}
+.flex-control-nav li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.flex-control-nav li a{
+	display: block;
+	width: 17px;
+	height: 17px;
+	background: orange;
+	border-radius: 20% ;
+	text-indent: -9999px;
+	/*box-shadow: inset 0px -3px 2px 0px rgba(0,0,0,0.55);*/
+}
+
+.flex-control-nav li a.flex-active{
+	background: white;
+}
+
+/* NAVEGACION ===============*/
+.flex-direction-nav{
+	z-index: 3;
+	list-style: none;
+}
+
+.flex-direction-nav a{
+	width: 70px;
+	height: 60px;
+	background: red;
+	margin: 0px 0px 100px 0px;
+	border: 2px solid rgba(255,255,255,.10);
+	/*box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.80);*/
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-decoration: none;
+	opacity: 0;
+
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+
+	transition: all 0.3s ease-in-out;
+}
+
+.flex-direction-nav a::before{
+	content: "\f104";
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-size: 50px;
+    color: white;
+}
+
+.flex-direction-nav a.flex-next::before{
+	content: "\f105";
+}
+
+.flex-direction-nav .flex-prev{
+	left: 0px;
+}
+
+.flex-direction-nav .flex-next{
+	right: 0px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev{
+	opacity: 1;
+	left: 15px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next{
+	opacity: 1;
+	right: 15px;
+	}
+	input{
+		margin: 20px 0px 0px 0px;
+	}
+.te{
+		width: 30%;
+		padding: 20px;
+		margin: 20px 0px 0px 20px;
+border-radius: 20px;
+font-family: verdana;
+color: black;
+text-decoration: underline;
+font-size: 18px;
+background-color: white;	
+	}
